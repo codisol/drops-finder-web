@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans");
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+Mono");
+
+body {
+    background-color: #202020;
+    color: white;
+    font-family: "Noto Sans", sans-serif;
+}
+
+#main-title {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.75rem;
+}
+
+.date {
+    margin: 1em;
+    font-size: 1.25em;
+}
+
+#input-div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 1em;
+    column-gap: 1em;
+}
+
+#input-text {
+    background-color: #202020;
+    color: white;
+    font-family: "Noto Sans Mono", monospace;
+    outline: 0;
+    border: 1px solid #404040;
+    width: 32ch;
+}
+
+#tables {
+    margin: auto;
+    max-width: max-content;
+}
+
+.table-wrapper {
+    overflow: auto;
+    display: flex;
+}
+
+.table {
+    border-collapse: collapse;
+    margin: 0.5em;
+    flex: 1;
+    min-width: max-content;
+}
+
+.table > tr > * {
+    border: 1px solid #808080;
+    padding: 0.5em;
+    font-size: small;
+}
+
+.caption {
+    margin: 0.5em 0;
+    font-size: 1.5em;
+    text-align: left;
+}
+
+.chance {
+    text-align: right;
+}
